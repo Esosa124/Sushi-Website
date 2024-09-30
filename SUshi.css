@@ -1,0 +1,458 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0%;
+    padding: 0%;
+}
+.top{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+   
+    
+}
+.midchild{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.top-navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    
+    padding-right:30px;
+
+}
+.sushi-logo{
+    background-color:  rgba(57, 219, 74, 1);
+    color: white;
+    text-transform: capitalize;
+    padding: 2px 0 0 0;
+    width: 30px;
+    text-align: center;
+    height: 40px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}
+header{
+    
+    margin-top: 80px;
+}
+.child{
+    margin-top: 0;
+}
+.bdy{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 50px;
+    
+}
+
+.bold-head{
+    width: 500px;
+    
+    line-height: 50px;
+    font-weight:300 ;
+    font-size: 25px;
+    margin-top: 0px;
+    
+}
+.call-button{
+    background-color: rgba(57, 219, 74, 1);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 18px;
+    gap :15px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.bold{
+margin-top: 0px;
+}
+.mini-tittle{
+    font-size: 20px;
+    font-weight: 150;
+    line-height:30px ;
+    margin-bottom: 2opx;
+}
+.button-t{
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    color: white;
+    box-shadow: 0 5px 8px 0 rgba(57,219,74,0.5);
+}
+.mini-p{
+    gap:20px;
+    align-items: center;
+}
+.sushi-img{
+    background-image: url("./images/MAIN\ SUSHI\ IMAGE.svg");
+    width: 550px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    top: -140px;
+    display: flex;
+    align-items: end;
+    z-index: 1;
+    
+    
+}
+.tittle-head{
+    justify-content: space-between;
+}
+.banner-1{
+    background-color: white;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.5);
+    width: 150px;
+    height: 40px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius:100px ;
+    border-top-right-radius: 150px;
+    border: none;
+    text-align: center;
+    position: absolute;
+    top:-15px;
+    left: -10px;
+    z-index: 1;
+
+}
+.second-row{
+    display: flex;
+    justify-content: space-between;
+}
+.popular-categories{
+    background-color:  rgba(193, 241, 198, 1);
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    
+}
+.customer-favorites{
+    
+    background: rgba(255, 255, 255, 1);
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    padding: 40px;
+    border:none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}   
+.popular-categories-text{
+    margin-top: 0;
+
+} 
+.popular-main{
+    margin: 0 auto;
+    
+
+}
+ .popula{
+    font-weight: 700;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 1);
+margin-top: 0%;
+}
+.favorites{
+    font-weight: 700;
+    font-size: 22px;
+   color: rgba(246, 59, 59, 1);
+   margin-bottom: 0%;
+   margin-top: 0%;
+}
+.maki-h4{
+    margin-top: 0%;
+    
+
+}
+
+.makizushi-main{
+    display: flex;
+    gap: 40px;
+    margin-top: 0%;
+    position: absolute;
+    right: 10px;
+    bottom: 150px;
+}
+.p-dollars{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.makizushi{
+    width: 210px;
+    background: blue;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: none;
+    gap: 20px;
+    padding: 2px 5px;
+    ;
+box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.14);
+    background-color: rgba(255, 255, 255, 1);
+    
+    
+}
+.best-dishes{
+    display: flex;
+gap: 5px;
+    justify-content: space-between;
+}
+.luv-banner{
+ background-color:rgba(57, 219, 74, 1) ;
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ width: 46px;
+ height: 46px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: none;
+ border-top-right-radius: 20px;
+ border-bottom-left-radius: 20px;
+}
+.best-dish{
+    background-color: white;
+    box-shadow:  5px 5px 5px 5px rgba(0, 0, 0, 0.14);;
+    border: none;
+    border-radius: 30px;
+    width: 300px;
+    height: 340px;
+    position: relative;
+    
+    
+    
+    
+    padding: 0px 40px;
+}
+.best-salad{
+   margin-top: 0%;
+
+
+
+   
+}
+.best-sushi-salad{
+    margin-top: 0%;
+    margin-bottom: 0%;
+  
+}
+.sushi-salad1{
+    
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sushi-salad3{
+    display: inline-block;
+    margin-top: 30px; 
+    margin-bottom: 14px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.sushi-salad2{
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;  
+  
+}
+.dollars{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.special-dishes{
+    color: red;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+}
+.menu-best{
+   color: rgba(0, 0, 0, 1);
+   font-weight: 700;
+   font-size:60px ;
+   margin-top: 0px;
+}
+.section-4{
+   display: flex;
+margin-top: 150px;
+justify-content: space-between;
+
+}
+.box-3{
+    background-color:rgba(83, 236, 98, 1);
+    width: 400px;
+    height: 255px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    margin-top: 40px;
+    align-self: flex-end;
+    
+
+
+}
+.BG-image4{
+
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    
+}
+.chef-banner{
+    position: absolute;
+    box-shadow:   5px 5px 10px 10px rgba(0, 0, 0, 0.14);
+    bottom: -10px;
+    right:-10px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px ;
+    width: 120px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: white;
+
+
+}
+.image-banner2{
+    background-image: url("./images/IMAGE\ 4\ \(1\).png");
+    background-size:cover;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+
+}
+.comments-3{
+    margin-top: 50px;
+}
+.nine{
+    background-image:url("./images/portrait-lovely-blond-female-part-time-employee-talking-manager-customer-support-removebg-preview\ 1.png") ;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    bottom:0px ;
+    left: 0px;
+}
+.ten{
+    background-image: url("./images/image\ 10.png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    bottom:0px ;
+    left:28px;
+}
+.eleven{
+    background-image: url("./images/image\ 11\ \(1\).png");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white; 
+    position: absolute;
+    bottom:0px ;
+    left:54px;
+
+}
+.multiple-banners{
+    position: relative;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    
+}
+.explore{
+    border: none;
+    background-color: rgb(15, 205, 34);
+    width: 120px;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow:    5px 5px 10px 10px rgba(0, 0, 0, 0.14); 
+    color: white;
+}
+.cathering{
+    width: 200px;
+    height: 230px;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.14)  ;
+    background-color: white;
+    border: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 10px;
+    border-radius: 40px;
+    
+}
+.cathering-menu{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 40px ;
+    color: rgba(144, 189, 149, 1);
+}
+.footer-main{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    line-height: 32px;
+    
+}
+.footer-list{
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:29px ;
+    color: rgba(85, 85, 85, 1);
+
+}
+.bottom-nav{
+    
+    gap: 10px;
+    flex-direction: row;
+    margin-left: 0px;
+    display: flex;
+    
+    
+}
+.nav-design{
+  border-radius: 50%;
+  background-color: rgba(237, 255, 239, 1);
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.mine-link{
+    color: black;
+    display: inline-block;
+margin-top: 2px;
+    
+    
+}
